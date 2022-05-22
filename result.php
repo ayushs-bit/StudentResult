@@ -130,9 +130,7 @@ $cnt++;}
                                                             <td><b><?php echo  htmlentities($totlcount*(100)/$outof); ?> %</b></td>
                                                              </tr>
 <tr>
-                                                <th scope="row" colspan="2">Download Result</th>           
-                                                            <td><b><a href="download-result.php">Download </a> </b></td>
-                                                             </tr>
+                                               
 
  <?php } else { ?>     
 <div class="alert alert-warning left-icon-alert" role="alert">
@@ -145,7 +143,7 @@ $cnt++;}
  {?>
 
 <div class="alert alert-danger left-icon-alert" role="alert">
-strong>Oh snap!</strong>
+strongOh snap!</strong>
 <?php
 echo htmlentities("Invalid Roll Id");
  }
