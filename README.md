@@ -1,1 +1,1 @@
-# StudentResult
+# Student Result Management System
