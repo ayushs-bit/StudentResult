@@ -111,7 +111,6 @@ else if($error){?>
                                                             <th>Student Name</th>
                                                             <th>Roll Id</th>
                                                             <th>Class</th>
-                                                            <th>Reg Date</th>
                                                             <th>Status</th>
                                                             <th>Action</th>
                                                         </tr>
@@ -122,7 +121,6 @@ else if($error){?>
                                                             <th>Student Name</th>
                                                             <th>Roll Id</th>
                                                             <th>Class</th>
-                                                            <th>Reg Date</th>
                                                             <th>Status</th>
                                                             <th>Action</th>
                                                         </tr>
@@ -142,7 +140,6 @@ foreach($results as $result)
                                                             <td><?php echo htmlentities($result->StudentName);?></td>
                                                             <td><?php echo htmlentities($result->RollId);?></td>
                                                             <td><?php echo htmlentities($result->ClassName);?>(<?php echo htmlentities($result->Section);?>)</td>
-                                                            <td><?php echo htmlentities($result->RegDate);?></td>
                                                              <td><?php if($result->Status==1){
 echo htmlentities('Active');
 }

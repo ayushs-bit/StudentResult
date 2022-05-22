@@ -110,8 +110,6 @@ else if($error){?>
                                                             <th>#</th>
                                                             <th>Subject Name</th>
                                                             <th>Subject Code</th>
-                                                            <th>Creation Date</th>
-                                                            <th>Updation Date</th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
@@ -120,8 +118,6 @@ else if($error){?>
                                                           <th>#</th>
                                                              <th>Subject Name</th>
                                                             <th>Subject Code</th>
-                                                            <th>Creation Date</th>
-                                                            <th>Updation Date</th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </tfoot>
@@ -139,8 +135,7 @@ foreach($results as $result)
  <td><?php echo htmlentities($cnt);?></td>
                                                             <td><?php echo htmlentities($result->SubjectName);?></td>
                                                             <td><?php echo htmlentities($result->SubjectCode);?></td>
-                                                            <td><?php echo htmlentities($result->Creationdate);?></td>
-                                                            <td><?php echo htmlentities($result->UpdationDate);?></td>
+
 <td>
 <a href="edit-subject.php?subjectid=<?php echo htmlentities($result->id);?>"><i class="fa fa-edit" title="Edit Record"></i> </a> 
 
