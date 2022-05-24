@@ -58,7 +58,7 @@ if(strlen($_SESSION['alogin'])=="")
                         <div class="container-fluid">
                             <div class="row page-title-div">
                                 <div class="col-md-6">
-                                    <h2 class="title">Manage Students</h2>
+                                    <h2 class="title">Manage Results</h2>
                                 
                                 </div>
                                 

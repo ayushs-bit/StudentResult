@@ -74,8 +74,8 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                     <form class="form-horizontal" method="post">
                                                         <div class="form-group">
                                                             <label for="inputEmail3" class="col-sm-6 control-label">Search your result</label>
-                                                            <div class="col-sm-6">
-                                                               <a href="find-result.php">click here</a>
+                                                            <div class="col-sm-6" >
+                                                               <a href="find-result.php">Click Here</a>
                                                             </div>
                                                         </div>
 
@@ -143,10 +143,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 
 
                                                 </div>
-                                            </div>
-                                            <!-- /.panel -->
-                                            <p class="text-muted text-center"><small>Copyright © 2022 SRMS  </a></small> </p>
-                                        </div>
+                                        
                                         <!-- /.col-md-11 -->
                                     </div>
                                     <!-- /.row -->
